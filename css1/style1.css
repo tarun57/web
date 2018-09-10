@@ -1,0 +1,106 @@
+#results{
+	font: 20px Arial, Helvetica, sans-serif;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#results .loading-indication{
+	background: #FFFFFF;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+}
+.btn{
+  margin-left:10%;
+}
+.pagination {
+	padding: 0px;
+	margin: 0px;
+	height: 30px;
+	display: block;
+	text-align: center;
+}
+.pagination li {
+	display: inline-block;
+	list-style: none;
+	padding: 0px;
+	margin-right: 1px;
+	width: 30px;
+	text-align: center;
+	background: #4CC2AF;
+	line-height: 25px;
+}
+.pagination .disabled {
+	display: inline-block;
+	list-style: none;
+	padding: 0px;
+	margin-right: 1px;
+	width: 30px;
+	text-align: center;
+	line-height: 25px;
+	background-color: #666666;
+	cursor:inherit;
+}
+.pagination li a{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+.page_result{
+	padding: 0px;
+}
+.page_result li{
+	background: #E4E4E4;
+	margin-bottom: 5px;
+	padding: 10px;
+	list-style: none;
+}
+.page_result .page_name {
+	font-size: 14px;
+	font-weight: bold;
+	margin-right: 5px;
+}
+#submit{
+margin-left:60%;
+font-size:20px;
+background-color:#0540e8c7;
+color:white;
+}
+
+#question :hover {
+  background: #EBBB67;
+}
+#submit:disabled {
+  opacity: 0.5;
+  background: #9ACFCC;
+  color: #00403C;
+  cursor: default;
+}
+.btn {
+  padding: 4px 8px;
+  background: #9ACFCC;
+  color: #00403C;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+}
+#submit {
+  float: right;
+  margin: 8px 20px 0px 8px;
+  padding: 4px 8px;
+  background: #9ACFCC;
+  color: #00403C;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+}
+#submit:hover {
+  background: #36a39c;
+  color: #FFF;
+}
+#results{
+	font: 20px Arial, Helvetica, sans-serif;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}

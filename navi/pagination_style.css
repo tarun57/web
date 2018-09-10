@@ -1,0 +1,58 @@
+body
+{
+ text-align:center;
+ width:100%;
+ margin:0 auto;
+ padding:0px;
+ font-family:helvetica;
+ background-color:#D8D8D8;
+}
+#wrapper
+{
+ text-align:center;
+ margin:0 auto;
+ padding:0px;
+ width:995px;
+}
+#pagination_div
+{
+ border:1px solid;
+ margin-top:50px;
+ border:1px dashed #585858;
+ width:300px;
+ padding:10px;
+ box-sizing:border-box;
+ margin-left:350px;
+ min-height:180px;
+}
+#pagination_div p
+{
+ margin:0px;
+}
+#pagination_div .para1
+{
+ font-size:45px;
+ font-weight:bold;
+ color:#585858;
+}
+#pagination_div .para2
+{
+ margin-top:20px;
+ font-size:25px;
+ font-weight:bold;
+ color:#585858;
+}
+#tota_page_div
+{
+ margin-top:20px;
+}
+#tota_page_div input[type="button"]
+{
+ background-color:#585858;
+ border:none;
+ margin:2px;
+ color:white;
+ height:35px;
+ width:35px;
+ border-radius:50%;
+}
